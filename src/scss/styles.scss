@@ -1,0 +1,11 @@
+$color: red;
+
+body {
+  background-color: $color;
+  p {
+    color: white;
+    display: flex;
+    flex-direction: column;
+  }
+};
+
