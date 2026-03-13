@@ -1,0 +1,51 @@
+/*------IMPORTAR FUENTES------*/
+@import url("https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&family=Press+Start+2P&family=VT323&display=swap");
+
+/*------RESET------*/
+*, *::before, *::after {
+  box-sizing: border-box; /* Evita que el padding afecte el ancho total */
+  margin: 0;
+  padding: 0;
+}
+
+/*-----CONFIGURACIÓN BASE-----*/
+html {
+  scroll-behavior: smooth; /* Para que menú baje con suavidad */
+}
+
+body {
+  margin: 0;
+  min-height: 100vh; /* Asegura que el fondo cubra toda la pantalla */
+  background-color: #0a0a0a;
+  color: #f5f5f5;
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  
+  /* Fuente principal */
+  font-family: 'Fredoka', sans-serif; 
+}
+
+/*-----TIPOGRAFÍA-----*/
+h1, h2, h3, .terminal-text {
+  /* Fuente para los títulos */
+  font-family: 'VT323', monospace; 
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+a {
+  text-decoration: none;
+  color: inherit; /* Los links heredan el color del texto */
+  transition: 0.3s;
+}
+
+/*-----IMÁGENES RESPONSIVAS-----*/
+img, picture, svg {
+  max-width: 100%;
+  display: block;
+}
+
+/*-----LISTAS-----*/
+ul, ol {
+  list-style: none;
+}
